@@ -6,9 +6,9 @@
   "main": "index.js",
  "scripts": {
   "setup-project": "npm i && cd client && npm i",
-  "server": "nodemon server.js",
-  "client": "cd client && npm run dev",
-  "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+  
+
+
   "start": "node server.js"
 },
   "keywords": [],
